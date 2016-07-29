@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Dosis-Book";
+  src: url("fonts/Dosis-Book.woff") format('woff');
+}
+
+body
+{
+	color: #fff;
+	background-color: black;
+	transform: rotateY( 180deg );
+}
+
+div#clock_frame
+{
+	width: 100%;
+}
+
+span
+{
+	display: block;
+	text-align: center;
+	font-family: "Dosis-Book";
+}
+
+span#clock_date
+{
+	padding-top: 0.1em;
+	text-align: right;
+	font-size: 0.5em;
+	padding-right: 0.5em;
+}
+
+span#clock_time
+{
+	padding-top: .5em;
+	/*font-family: "DISPLAY";*/
+	font-size: 2em;
+	color: #fff;
+	/*text-shadow: 0 0 30px #fff,0 0 40px #fff;*/
+	/*background-image: url("clock.png");
+	background-size:cover;
+	background-repeat: no-repeat;*/
+}
